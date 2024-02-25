@@ -13,46 +13,34 @@ Image Cataloger is a Python-based tool designed to organize and search through a
 
 ## Prerequisites
 
-- conda or miniconda
-- Python 3.6 or higher
+- [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
+- Python 3.11 or higher
 - Pip for Python package installation
 
 ## Setup Instructions
 
-### 1. Clone the Repository
+### Clone the Repository
 
 You got this.
 
-### 4. Setting Up the Environment with Conda
-
-1. **Install Anaconda**: Download and install Anaconda from the official website.
-2. **Create and Activate the Environment**: Navigate to your project directory and run:
+### Setting Up the Environment with Conda
 
 ```bash
 conda env create -f environment.yml
-conda activate env
+conda activate puggle
 ```
 
-### 5. Initialize the Database
+### Initialize the Database
 
 `python initialize_database.py`
 
-### 6. Running the Application
+### Importing Images from Command Line
 
-To start using the Image Cataloger, run:
+`python import.py <path-to-image-directory>`
+
+### Running the Application
+
 `python app.py`
-
-## Usage Instructions
-
-To search for images by keyword:
-`python find_by_prompt.py --keyword "sunset"`
-
-To organize images into folders based on EXIF data:
-`python organize.py --directory "/path/to/images"`
-
-## Contributing
-
-We welcome contributions! Please read our contributing guidelines in `CONTRIBUTING.md` for details on how to submit pull requests.
 
 ## License
 
