@@ -1,3 +1,3 @@
 from peewee import SqliteDatabase
 
-db = SqliteDatabase("images.db")
+db = SqliteDatabase("puggle.db")

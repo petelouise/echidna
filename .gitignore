@@ -19,3 +19,7 @@ env/
 # Dependency directories
 venv/
 env/
+
+# SQLite database files
+*.sqlite3
+*.db
