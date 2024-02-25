@@ -1,4 +1,4 @@
-# puggle
+# echidna
 
 ## Overview
 
@@ -27,7 +27,7 @@ You got this.
 
 ```bash
 conda env create -f environment.yml
-conda activate puggle
+conda activate echidna
 ```
 
 ### Initialize the Database

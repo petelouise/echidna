@@ -1,4 +1,4 @@
-name: puggle
+name: echidna
 channels:
   - defaults
 dependencies:
