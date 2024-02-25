@@ -1,0 +1,21 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+.venv3/
+.venv2/
+.Python
+
+# IDE files
+.vscode/
+.idea/
+
+# Dependency directories
+venv/
+env/
